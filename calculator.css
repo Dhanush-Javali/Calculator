@@ -1,0 +1,145 @@
+body{
+    background:url('./img/bg7.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.457);
+    background-blend-mode:darken;
+    padding-top: 170px;
+    
+}
+
+
+section{
+    
+    width: 536px;
+    margin: auto;
+}
+
+nav{
+    height: 70px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    color :rgb(91, 91, 91)
+}
+
+.main-container{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: arial;
+}
+
+
+.left-container{
+    /* border: 1px solid red; */
+    /* background-color: rgba(0, 0, 0, 0.911); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.disp{
+    height: 70px;
+    background-color: rgba(226, 226, 226, 0.34);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.911);
+    
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    font-size: 30px;
+    font-weight: 500;
+    width: 134px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.911);
+    color: rgba(255, 255, 255, 0.772);
+    transition: opacity 0.15s;
+}
+
+button:hover{
+    opacity: 0.90;
+    cursor: pointer;
+}
+
+button:active
+{
+    opacity: 1;
+}
+
+.right-container{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.r-btn{
+    border: none;
+    width: 134px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.772);
+    background-color: rgb(128, 128, 128);
+    transition: opacity 0.15s;
+}
+
+.ac{
+    background-color: rgba(57, 160, 126, 0.858);
+}
+
+
+
+@media screen and (max-width:667px) {
+ 
+    body{
+        padding-top: 150px;
+    }
+
+
+    button{
+        font-size: 20px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .disp{
+        height: 80px;
+    }
+    .r-btn{
+        font-size: 20px;
+        width: 80px;
+        height: 80px;
+    }
+
+    section{
+        width: 320.5px;
+    }
+
+    nav{
+        font-size: 20px;
+        height: 50px;
+        width: 100%;
+    }
+}
+
